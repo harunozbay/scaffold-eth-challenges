@@ -12,7 +12,7 @@ contract Staker {
 
     mapping(address => uint256) public balances;
     uint256 public threshold = 1 ether;
-    uint256 public deadline = block.timestamp + 120 seconds;
+    uint256 public deadline = block.timestamp + 30 seconds;
     bool openForWithdraw = false;
 
     ExampleExternalContract public exampleExternalContract;
@@ -66,8 +66,7 @@ contract Staker {
 
     // Add a `timeLeft()` view function that returns the time left before the deadline for the frontend
     function timeLeft() public view returns (uint256) {
-        uint256 left = deadline - block.timestamp;
-        return left > 0 ? left : 0;
+        return deadline > block.timestamp ? deadline - block.timestamp : 0;
     }
 
     // Add the `receive()` special function that receives eth and calls stake()
