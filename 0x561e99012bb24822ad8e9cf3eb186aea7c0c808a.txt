@@ -1,0 +1,4 @@
+universe mirror tomato mad below define smart curtain snap mixed erupt absent
+deployer account: 0x561e99012bb24822ad8e9cf3eb186aea7c0c808a
+contract: https://rinkeby.etherscan.io/address/0xd6c16cf6220903bb548dbb05c2de4023b1885e24
+app url: glossy-churchill.surge.sh
