@@ -15,7 +15,7 @@ contract Staker {
     uint256 public deadline = block.timestamp + 72 hours;
     bool openForWithdraw = false;
 
-    ExampleExternalContract public exampleExternalContract;
+  ExampleExternalContract public exampleExternalContract;
 
     constructor(address exampleExternalContractAddress) {
         exampleExternalContract = ExampleExternalContract(
@@ -31,8 +31,8 @@ contract Staker {
         _;
     }
 
-    // Collect funds in a payable `stake()` function and track individual `balances` with a mapping:
-    //  ( make sure to add a `Stake(address,uint256)` event and emit it for the frontend <List/> display )
+  // Collect funds in a payable `stake()` function and track individual `balances` with a mapping:
+  // ( Make sure to add a `Stake(address,uint256)` event and emit it for the frontend <List/> display )
 
     function stake() public payable {
         require(block.timestamp < deadline, "The deadline has passed.");
