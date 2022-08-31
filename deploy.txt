@@ -1,0 +1,8 @@
+rinkeby
+0x279ec7554f11cc8e8e3bfc7a56e537ba52c95039
+extend boil secret inside slow maple never void window wheel flush produce
+
+YourToken.sol: 0x21912A24d1e06a87Ce354036255e2BaBA9833301
+Vendor.sol: 0x47492c0ACFAccAF18862e35D9d2C7B4BE3D68F31
+
+Published to difficult-distances.surge.sh
