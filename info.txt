@@ -1,0 +1,7 @@
+deployer:0x279ec7554f11cc8e8e3bfc7a56e537ba52c95039
+extend boil secret inside slow maple never void window wheel flush produce
+
+DiceGame deployed at "0x69574F43577B6625DB0F001B60A6D727A42E7B77"
+RiggedRoll deployed at 1."0xBd44262AED7Fb224e518989251a2D2bfb0126535" 2."0x616cCE98e0ECf48174607FeF0B000754c850eB13"
+
+domain: harmonious-threads.surge.sh
